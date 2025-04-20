@@ -1,0 +1,7 @@
+{
+  "name": "faltoGanasNotif",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
