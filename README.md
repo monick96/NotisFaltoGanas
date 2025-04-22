@@ -210,9 +210,7 @@ export class AppModule {}
 ```
 ionic serve
 ```
-## Notificacion programada a las 15
-![Captura de pantalla 2025-04-21 150016](https://github.com/user-attachments/assets/3e3104db-8043-424a-89e3-70d009201000)
+## Notificacion programada a las 9am y boton mostrando hora
+![image](https://github.com/user-attachments/assets/4ba96b1b-55b6-41f7-b194-0549466ed3a6)
 
-## Botón que da la Hora
-![image](https://github.com/user-attachments/assets/5933b5c2-8cef-467b-945d-0effaa2bf7d3)
 
