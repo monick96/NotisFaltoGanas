@@ -214,3 +214,42 @@ ionic serve
 ![image](https://github.com/user-attachments/assets/4ba96b1b-55b6-41f7-b194-0549466ed3a6)
 
 
+## Pasos para agregar capacitor y acceder a funciones nativas 
+##### no se pueden probar sin android studio/ asi que primero configuro
+##### que buscamos
+- que la app me envie notificacion local aun si estoy en otra ventana o haciendo otra cosa(segundo plano) pero que este corriendo en la terminal
+
+#### 10 - agregar capacitor para acceder a funciones nativas 
+```
+ionic integrations enable capacitor
+```
+#### 11 - Construir el proyecto para generar archivos en www(archivos necesarios para correr en distintos sistemas operativos con capacitor). Hay que correr el comando cada vez que tengamos cambios importantes(componentes, vistas, estilos, lógica, etc)
+```
+npm run build
+```
+#### 12 - Actualizar/sincronizar los archivos generados con capacitor
+ - copia los archivos de www al proyecto nativo (Android/iOS) y sincroniza plugins.
+```
+npx cap sync
+
+```
+#### 13 - Habilito plugin notificaciones locales 
+- ¡Buena pregunta! Vamos a desglosar qué pasa en esos pasos y cómo afecta a tu proyecto en Capacitor:
+
+1. npm install @capacitor/local-notifications
+- es una librería oficial de Capacitor que permite programar notificaciones que se muestran en el dispositivo sin necesidad de conexión a internet 
+
+```
+npm install @capacitor/local-notifications
+```
+#### 13 - Volvemos a sincronizar 
+```
+npx cap sync
+```
+#### 14 - Arrancamos modificacion de codigo:
+  ### scheduler.service.ts
+    ```typescript
+    
+    ```
+
+
