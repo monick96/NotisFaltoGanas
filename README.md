@@ -3,7 +3,7 @@
 ```
 ionic start
 ```
-#### 2 - creo un componente para la tarea asignada(lógica y botón)
+#### 2 - creo un componente para mostrar hora y notificaciones(proximamente)(lógica y botón)
 ```
 ionic generate component task-scheduler
 ```
