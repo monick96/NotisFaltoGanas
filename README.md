@@ -1,4 +1,4 @@
-## Pasos 
+## Pasos que segui
 #### 1 - cree un proyecto en blanco, con angular y ng module
 ```
 ionic start
