@@ -149,7 +149,7 @@ export class TaskSchedulerComponent  implements OnInit {
 
 ```
 
-#### 6 - Armar template para la interfaz del componente task-scheduler.component.ts, con titulo y boton
+#### 6 - Armar template para la interfaz del componente task-scheduler.component.html, con titulo y boton
 ```ionic
 <ion-card>
   <ion-card-header>
