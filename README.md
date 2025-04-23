@@ -251,7 +251,7 @@ export class SchedulerService {
   private taskTimes: {id:number,h:number, m:number} [] =[
     {id:1, h:9, m:0},
     {id:2, h:15, m:0},
-    {id:3, h:21, m:0}
+    {id:3, h:14, m:40}
   ];
   
   //cuando se instancie el service se va a ejecutar automaticamente scheduleTasksForToday()
