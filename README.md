@@ -220,6 +220,7 @@ ionic serve
 - que la app me envie notificacion local aun si estoy en otra ventana o haciendo otra cosa(segundo plano) pero que este corriendo en la terminal
 
 #### 10 - agregar capacitor para acceder a funciones nativas 
+- capacitor es una herramienta desarrollada por ionic que actua como intermediario entre la app y las apis nativas del sistema operativo
 ```
 ionic integrations enable capacitor
 ```
