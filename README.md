@@ -351,5 +351,37 @@ export class SchedulerService {
 }
 
 ```
+#### 13 - conexion con android studio
+###### Construimos el proyecto, genera la carpeta www necesaria para Capacitor- por defecto se agrega a gitignore
+
+```
+npm run build
+```
+###### si no se creo la carpeta android ejecutamos:
+```
+ionic capacitor add android
+```
+
+###### sincronizamos capacitor
+```
+npx cap sync
+
+```
+###### Ir a andoid studio
+###### Abrir carpeta android
+###### Darle a play 
+## APK 
+###### 1 - construimos el proyecto de nuevo por las dudas 
+
+```
+ionic build
+```
+###### 2 - comando para abrir el proyecto en android studio
+```
+ionic capacitor open Android
+```
+###### 3- desde andoid studio
+![alt text](image.png)
+
 
 
